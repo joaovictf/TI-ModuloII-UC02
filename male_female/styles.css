@@ -1,0 +1,23 @@
+#logo {
+    background-color: white;
+    height: 150px;
+    width: auto;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+h1, h3, h5, h6 {
+    text-align: center;
+}
+
+#male, #female {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 15px;
+}

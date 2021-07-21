@@ -1,0 +1,19 @@
+#logo {
+  background-color: white;
+  height: 150px;
+  width: auto;
+  text-align: center;
+}
+
+#nav {
+  padding-bottom: 5px;
+}
+
+#male, #female {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}

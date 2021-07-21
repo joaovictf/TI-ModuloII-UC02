@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Ícone da página  -->
+    <link rel="shortcut icon" href="../icon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Regatas</title>
+</head>
+
+<body>
+    <section id="logo">
+        <img src="../icon.png" alt="Logomarca" style="height: 150px; width: auto;">
+    </section>
+    <section id="nav">
+        <!-- Navegação -->
+        <ul class="nav justify-content-center navbar navbar-dark bg-dark">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="camisetas.html">Camisetas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="regatas.html">Regatas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="bermudas_shorts.html">Bermudas & Shorts</a>
+            </li>
+        </ul>
+
+        <!-- Navegação II  -->
+        <nav class="navbar navbar-expand-lg justify-content-center navbar-with bg-with">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquise um item" aria-label="Pesquisar">
+                <!-- Pesquisar -->
+                <button type="button" class="btn btn-light" style="margin: 5px 5px 5px 5px;">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+                <!-- Carrinho de compras  -->
+                <button type="button" class="btn btn-light">
+                    <ion-icon name="cart-outline"></ion-icon>
+                    <span class="badge badge-light"
+                        style="font-size: auto; text-align: center; margin-bottom: 5px;">0</span>
+                </button>
+                <!-- Login  -->
+                <a href="../login_registro/login.html" class="btn btn-secondary btn-small active" role="button"
+                    aria-pressed="true" style="margin: 5px;">
+                    <ion-icon name="log-in-outline"></ion-icon>
+                </a>
+            </form>
+        </nav>
+    </section>
+
+    <!-- Conteúdo -->
+    <header>
+        <h3>Regatas</h3>
+    </header>
+
+    <!-- Categoria Masculina-->
+    <div class="container">
+        <section id="male">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br><br><br>
+                    <img src="../img/male/camiseta-sem-manga-icone-pedagio.jpg" class="card-img-top"
+                        alt="Icone da Categoria">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h3>Regetas Masculinas</h3>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br>
+                    <img src="../img/male/regata_overcome_logobox_preta_9573_1_20201110154524.webp" class="card-img-top"
+                        alt="REGATA OVERCOME 'LOGOBOX' PRETA">
+                    <div class="card-body">
+                        <p class="card-text">
+
+                        <h5>REGATA OVERCOME "LOGOBOX" PRETA</h5>
+                        <h6>Por R$ 19,90</h6>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-light" type="button">Tamanho</button>
+                            </div>
+                            <select class="btn btn-light" id="inputGroupSelect03"
+                                aria-label="Exemplo de select com botão addon">
+                                <option selected></option>
+                                <option value="P">P</option>
+                                <option value="M">M</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn btn-dark btn-lg btn-block">Comprar</button>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br>
+                    <img src="../img/male/regata_overcome_grafitti_branco_13119_1_20201110153204.webp"
+                        class="card-img-top" alt="REGATA OVERCOME 'GRAFITTI' BRANCO ">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h5>REGATA OVERCOME 'GRAFITTI' BRANCO </h5>
+                        <h6>Por R$ 75,90</h6>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-light" type="button">Tamanho</button>
+                            </div>
+                            <select class="btn btn-light" id="inputGroupSelect03"
+                                aria-label="Exemplo de select com botão addon">
+                                <option selected></option>
+                                <option value="P">P</option>
+                                <option value="M">M</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn btn-dark btn-lg btn-block">Comprar</button>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br>
+                    <img src="../img/male/regata_overcome_mini_script_preta_16276_1_20201110155932.webp"
+                        class="card-img-top" alt="REGATA OVERCOME 'MINI SCRIPT' PRETA">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h5>REGATA OVERCOME 'MINI SCRIPT' PRETA</h5>
+                        <h6>Por R$ 39,90</h6>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-light" type="button">Tamanho</button>
+                            </div>
+                            <select class="btn btn-light" id="inputGroupSelect03"
+                                aria-label="Exemplo de select com botão addon">
+                                <option selected></option>
+                                <option value="P">P</option>
+                                <option value="M">M</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn btn-dark btn-lg btn-block">Comprar</button>
+                        </p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Categoria Feminina  -->
+        <section id="female">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br><br><br>
+                    <img src="../img/female/icone2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h3>Regatas Femininas</h3>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br>
+                    <img src="../img/female/regata-feminina-vermelha-knt-cha-de-mulher-pe222102vm-_3_.jpg"
+                        class="card-img-top" alt="REGATA FEMININA LISA VERMELHA">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h5>REGATA FEMININA LISA VERMELHA</h5>
+                        <h6>Por R$ 19,90</h6>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-light" type="button">Tamanho</button>
+                            </div>
+                            <select class="btn btn-light" id="inputGroupSelect03"
+                                aria-label="Exemplo de select com botão addon">
+                                <option selected></option>
+                                <option value="P">P</option>
+                                <option value="M">M</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn btn-dark btn-lg btn-block">Comprar</button>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br>
+                    <img src="../img/female/PRETO-FRENTE-1.jpg" class="card-img-top" alt="REGATA FEMININA LISA PRETA">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h5>REGATA FEMININA LISA PRETA</h5>
+                        <h6>Por R$ 29,99</h6>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-light" type="button">Tamanho</button>
+                            </div>
+                            <select class="btn btn-light" id="inputGroupSelect03"
+                                aria-label="Exemplo de select com botão addon">
+                                <option selected></option>
+                                <option value="P">P</option>
+                                <option value="M">M</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn btn-dark btn-lg btn-block">Comprar</button>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 card">
+                    <br><br>
+                    <img src="../img/female/MESCLA-FRENTE-1.jpg" class="card-img-top" alt="REGATA FEMININA LISA BRANCA">
+                    <div class="card-body">
+                        <p class="card-text">
+                        <h5>REGATA FEMININA LISA BRANCA</h5>
+                        <h6>Por R$ 19,90</h6>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-light" type="button">Tamanho</button>
+                            </div>
+                            <select class="btn btn-light" id="inputGroupSelect03"
+                                aria-label="Exemplo de select com botão addon">
+                                <option selected></option>
+                                <option value="P">P</option>
+                                <option value="M">M</option>
+                                <option value="G">G</option>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn btn-dark btn-lg btn-block">Comprar</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="card">
+            <h5 class="card-header bg-dark"></h5>
+            <div class="card-body"></div>
+        </div>
+    </footer>
+
+    <!-- Scripts  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    </section>
+    <!-- Scripts Icones -->
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"> </script>
+    </div>
+</body>
+
+</html>
